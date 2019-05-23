@@ -5,6 +5,8 @@ Extract 14 key points from dlib 68 face key points and estimate face pose by cv2
 - 利用dlib人脸检测 dlib.get_frontal_face_detector 以及`dlib.shape_predictor(r"D:\Programming workspaces\LocalGithub\mtcnn-caffe-master\demo\shape_predictor_68_face_landmarks.dat")` 获取人脸68个关键点  
 其中`shape_predictor_68_face_landmarks.dat`是可从网上下载的官方模型  
 
+**在cmcc的AI平台上可以直接得到dlib人脸关键点的可视化结果：[地址](http://jiutian.cmri.cn/demo/demo_face_location)**  
+
 - 从检测到的人脸中获取最大的人脸 `def _largest_face(dets)`
 - 从dlib 68个关键点中抽取14个  
 ``````
