@@ -6,10 +6,10 @@ import dlib
 import time
 import math
 
-data_dir = r"D:\Programming workspaces\LocalGithub\mtcnn-caffe-master\demo\test_datasets"
-save_dir = r"D:\Programming workspaces\LocalGithub\mtcnn-caffe-master\demo\results"
+data_dir = r"...\test_datasets"
+save_dir = r"...\results"
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r"D:\Programming workspaces\LocalGithub\mtcnn-caffe-master\demo\shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor(r"...\shape_predictor_68_face_landmarks.dat")
 POINTS_NUM_LANDMARK = 68
 
 
